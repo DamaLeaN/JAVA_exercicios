@@ -13,17 +13,17 @@ public class nomeCidade {
 		// TODO Auto-generated method stub
 
 		
-		JOptionPane.showMessageDialog(null,	"Olá Humano!\nBora conversar?");
+		JOptionPane.showMessageDialog(null,	"Olá Humano!");
 		
 		String nickname = JOptionPane.showInputDialog("Qual é o seu nome?");
 		
-		JOptionPane.showMessageDialog(null,	"\nQualé, chama isso de nome? haha! \npode me chamar de JV", nickname, JOptionPane.WARNING_MESSAGE);
+		JOptionPane.showMessageDialog(null,	"\npode me chamar de JV", nickname, JOptionPane.WARNING_MESSAGE);
 		
-		String guildacity = JOptionPane.showInputDialog("Mora em qual quebrada?");
+		String city = JOptionPane.showInputDialog("Mora em qual quebrada?");
 					
 		JOptionPane.showMessageDialog(null,	"Não botei fé nessa quebrada hein! \nVou confirmar com o seu IP....");
 		
-		JOptionPane.showMessageDialog(null,	"Olá, seja Bem vindo "+nickname+"!\nRastrei o seu IP, diz que sua localização é em "+guildacity);
+		JOptionPane.showMessageDialog(null,	"Olá, seja Bem vindo "+nickname+"!\nRastrei o seu IP, diz que sua localização é em "+city);
 		
 		
 		System.exit(0);
